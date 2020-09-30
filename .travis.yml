@@ -3,8 +3,5 @@ python:
   - 3.8
 install:
   - pip install -r requirements-dev.txt
-  - pipenv sync --dev
 script:
   - flake8
-after_success:
-  - codecov
